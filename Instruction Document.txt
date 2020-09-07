@@ -1,0 +1,7 @@
+Install PostgresSQL
+Go to PGADMIN and Create a database
+active env by ".\env\scripts\activate"
+Then add Database details in Settings.py file
+then type "python manage.py createmigrations"
+then type "python manage.py migrate"
+then type "python manage.py runserver"
